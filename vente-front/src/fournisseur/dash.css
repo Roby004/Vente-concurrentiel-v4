@@ -1,0 +1,54 @@
+.englobe{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.englobeD{
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+.dashgauch{
+    width: 20%;
+}
+.dashdroit{
+  margin-left: 30px;
+  margin-bottom: 50px;
+  
+}
+.dashdroit button{
+  border: 1px solid #979a9d;
+  color: #979a9d;
+}
+.chartL{
+margin: -1px 10px;
+margin-top: -30px;
+
+
+}
+.chartP{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  margin-bottom: -1px;
+}
+.chartL svg {
+    background-color:  #d05420 ; /*#ff4ba7  #d2486af0*/
+    border-radius: 7px;
+/* Add your desired background color */
+  }
+  .chartP svg{
+    background-color: #ffda64;
+    border-radius: 7px;
+  }
+  
+  .chartL path {
+    stroke: white !important; /* Set line color to white */
+    fill: none !important; /* Remove fill */
+  }
+  
